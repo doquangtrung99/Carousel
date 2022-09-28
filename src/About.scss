@@ -1,0 +1,51 @@
+.wrap{
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 100px;
+    position: relative;
+    .btn-prev{
+        position: absolute;
+        left: 0;
+        top:40%;
+        z-index: 1;
+
+    }
+    .btn-next{
+        position: absolute;
+        right: 0;
+        top:40%;
+        z-index: 1;
+    }
+    .wrap-text{
+        width: 400px;
+        border: 1px solid red;
+        overflow: hidden;
+        display: flex;
+        transition: all 0.5s ease-in-out;
+        background: blue;
+        .text{
+            height: 200px;
+            width: 1600px;
+            display: flex;
+            transition: all 0.5s ease-in-out;
+           
+                .child-text{
+                    text-align: center;
+                    height: 200px;
+                    width: 400px;
+                    position: relative;
+                    color: white;
+                    font-size: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+               
+        }
+
+    }
+    
+}
